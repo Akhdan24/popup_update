@@ -74,7 +74,7 @@ class _popupState extends State<popup> {
                               child: FlatButton(
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(4)),
-                                color: "AAD7DE".toColor(),
+                                color: "F47A7E".toColor(),
                                 onPressed: () async {
                                   if (Platform.isAndroid) {
                                     if (!await launchUrl(linkandroid)) throw 'Could not launch $linkandroid';
@@ -96,7 +96,7 @@ class _popupState extends State<popup> {
                               child: FlatButton(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(4),
-                                  side: BorderSide(color: "AAD7DE".toColor(), width: 2),
+                                  side: BorderSide(color: "F47A7E".toColor(), width: 2),
                                 ),
                                 color: Colors.white,
                                 onPressed: () {
@@ -106,7 +106,7 @@ class _popupState extends State<popup> {
                                     style: GoogleFonts.poppins().copyWith(
                                         fontSize: 11,
                                         fontWeight: FontWeight.bold,
-                                        color: "AAD7DE".toColor())),
+                                        color: "F47A7E".toColor())),
                               ),
                             ),
                             SizedBox(height: 20),
@@ -121,7 +121,7 @@ class _popupState extends State<popup> {
                           height: 190,
                           padding: EdgeInsets.all(3),
                           child: Image(
-                            image: AssetImage("assets/img_intro.png"),
+                            image: AssetImage("assets/penguin.png"),
                           )),
                     ),
                   ],
